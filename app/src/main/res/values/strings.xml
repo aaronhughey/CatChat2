@@ -5,9 +5,16 @@
     <string name="nav_drafts">Draftz</string>
     <string name="nav_sent">Sent mesagez</string>
     <string name="nav_trash">In da trash</string>
+    <string name="calender">Calender</string>
+    <string name="camera">Take a cat pic</string>
+    <string name="upload">Upload a cat pic</string>
     <string name="nav_support">Support</string>
     <string name="nav_help">Halp</string>
     <string name="nav_feedback">Giv us feedback</string>
+    <string name="faq">Frequently asked Questions</string>
     <string name="nav_open_drawer">Open navigation drawer</string>
     <string name="nav_close_drawer">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

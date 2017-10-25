@@ -57,11 +57,23 @@ public class MainActivity extends AppCompatActivity
             case R.id.nav_trash:
                 fragment = new TrashFragment();
                 break;
+            case R.id.nav_calender:
+                fragment = new CalenderFragment();
+                break;
+            case R.id.nav_camera:
+                fragment = new CameraFragment();
+                break;
+            case R.id.nav_upload:
+                fragment = new UploadFragment();
+                break;
             case R.id.nav_help:
                 intent = new Intent(this, HelpActivity.class);
                 break;
             case R.id.nav_feedback:
                 intent = new Intent(this, FeedbackActivity.class);
+                break;
+            case R.id.nav_faq:
+                intent = new Intent(this, FaqActivity.class);
                 break;
             default:
                 fragment = new InboxFragment();

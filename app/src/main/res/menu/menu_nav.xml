@@ -24,8 +24,28 @@
             android:icon="@android:drawable/ic_menu_delete"
             android:title="@string/nav_trash"
             />
+
+
     </group>
 
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_calender"
+            android:icon="@android:drawable/ic_menu_month"
+            android:title="@string/calender"
+            />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="@string/camera"
+            />
+        <item
+            android:id="@+id/nav_upload"
+            android:icon="@android:drawable/ic_menu_upload"
+            android:title="@string/upload"
+            />
+    </group>
     <item
         android:title="@string/nav_support"
         >
@@ -39,6 +59,11 @@
                 android:id="@+id/nav_feedback"
                 android:icon="@android:drawable/sym_action_email"
                 android:title="@string/nav_feedback"
+                />
+            <item
+                android:id="@+id/nav_faq"
+                android:icon="@android:drawable/ic_menu_call"
+                android:title="@string/faq"
                 />
         </menu>
     </item>
